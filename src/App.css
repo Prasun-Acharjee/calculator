@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.boxes{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  justify-content: center;
+}
+
+.boxes > button{
+  padding: 10px;
+  background-color: #61dafb;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.textfield{
+  font-weight: bold;
+  font-size: larger;
+  width: 300px;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
